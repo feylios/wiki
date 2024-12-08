@@ -1,0 +1,3 @@
+[submodule "vault/feylios"]
+	path = vault/feylios
+	url = https://github.com/feylios/wiki.wiki.git
