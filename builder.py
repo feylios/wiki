@@ -5,8 +5,15 @@ import os, os.path, markdown
 directory = "C:/Users/joshm/Documents/Feylios/wiki/"
 website = "https://feylios.github.io/wiki"
 file = open(directory + "index.html", "w")
-# write our file header
-file.write("<h1>Files</h1>")
+# write our file header 
+
+file.write('<html>')
+file.write('<title>Homepage</title>')
+file.write('<head> <link rel="stylesheet" href="./styles/styles.css"> </head>')
+
+file.write("<body>")
+
+file.write("<h1>Welcome to the Feylios resource website</h1>")
 
 # scan a directory and write the files
 def scanDirectory(cdir, h):
@@ -47,5 +54,7 @@ def writeLine(text, dir, h):
 
 scanDirectory(directory,1)
 
+file.write("</body>")
+file.write('</html>')
 file.close()
 # write lines to a file

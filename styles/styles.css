@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    font-family: 'EB Garamond';
+}
+ 
+body {
+    background-color: rgba(30,30,30,255);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: large;
+}
+
+label {
+    color: white;
+    font-size: large;
+}
+
+ul {
+    color: white;
+}
+
+ol {
+    color: white;
+}
+
+a{
+    color:lightblue;
+}
+
+li{
+    margin-top: 1%;
+}
+
+img{
+    max-width: 32%;
+    border-radius: 2%;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.vertimg{
+    max-width: 33%;
+}
+
+.vertimg-centered{
+    max-width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+
+.horimg{
+    max-width: 100%;
+}
+
+.horimg-half{
+    max-width: 49%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.horimg-half-centered{
+    max-width: 60%;
+    margin-left: 18%;
+
+}
+.generalcentered {
+    max-width:65%;
+    margin: auto;
+}
+
+.generalcentered-auto {
+    display: block;
+    margin-left: 20%;
+}
+
+.general-half{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 65%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.topnav{
+    max-width:60%;
+    margin: auto;
+    margin-top: 1%;
+    font-size: larger;
+}
+
+.infopane{
+    background-color: rgba(40,40,40,255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.infotext{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.infotext-floating{
+    background-color: rgba(50,50,50,255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    color: white;
+}
+
+.infotext-floating-auto{
+    vertical-align: top;
+    background-color: rgba(50,50,50,255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: white;
+}
