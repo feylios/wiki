@@ -15,7 +15,7 @@ def scanDirectory(cdir, h):
     # loop through the files, and ignore .git, .py, and the index.html file
     for x in dir_list:
         ## x is our string filename
-        if ".git" in x or ".py" in x or "index.html" in x or "files.html" in x or "CNAME" in x or ".css" in x or "vault" in x or "styles" in x or ".obsidian": 
+        if ".git" in x or ".py" in x or "index.html" in x or "files.html" in x or "CNAME" in x or ".css" in x or "vault" in x or "styles" in x: 
             continue
         ## if the file is a folder, scan that folder
         if "." not in x:
