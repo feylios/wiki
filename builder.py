@@ -3,7 +3,7 @@ import os, os.path
 
 # open the file
 directory = "C:/Users/joshm/Documents/Feylios/wiki/"
-website = "https://joshmh7128.github.io/files-site"
+website = "https://https://feylios.github.io/wiki/"
 file = open(directory + "index.html", "w")
 # write our file header
 file.write("<h1>Files</h1>")
