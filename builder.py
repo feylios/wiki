@@ -3,7 +3,7 @@ import os, os.path, markdown
 
 # open the file
 directory = "C:/Users/joshm/Documents/Feylios/wiki/"
-website = "https://https://feylios.github.io/wiki/"
+website = "https://https://feylios.github.io/wiki"
 file = open(directory + "index.html", "w")
 # write our file header
 file.write("<h1>Files</h1>")
@@ -38,8 +38,10 @@ def writeLine(text, dir, h):
     ## get our web directory by removing the directory from the dir and adding the website
     dir = dir.removeprefix(directory)
     dir = dir + "/" + text
+    print(dir)
     wdir = website + dir
     print(wdir)
+    ## print(wdir)
     line = '<a href="' + wdir + '">' + text + '</a>' + '<br>'
     file.write(line)
 
