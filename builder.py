@@ -9,7 +9,7 @@ file = open(directory + "index.html", "w")
 
 file.write('<html>')
 file.write('<title>Homepage</title>')
-file.write('<head> <link rel="stylesheet" href="./styles/styles.css"> </head>')
+file.write('<head> <link rel="stylesheet" href="./styles/style.css"> </head>')
 
 file.write("<body>")
 
