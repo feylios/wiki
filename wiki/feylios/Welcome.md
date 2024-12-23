@@ -1,0 +1,1 @@
+Welcome to the wiki. This is a test page.
